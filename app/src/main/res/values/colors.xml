@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bg_home">#39444a</color>
+    <color name="bg_content">#BEBEBE</color>
+    <color name="bg_button">#fff</color>
+    <color name="Profile_bg">#e42e29</color>
+    <color name="almost_white">#e9e9e9</color>
+    <color name="transit_color">#50b698</color>
+    <color name="colorBlack">#000</color>
+    <color name="btnDefault">#d5d6d6</color>
+</resources>

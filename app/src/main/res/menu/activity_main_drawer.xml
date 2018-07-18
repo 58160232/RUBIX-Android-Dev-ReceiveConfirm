@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu_home"
+            android:icon="@drawable/ic_home"
+            android:title="HOME" />
+        <item
+            android:id="@+id/nav_menu_receivng"
+            android:icon="@drawable/ic_receive"
+            android:title="@string/button_recieving" />
+        <item
+            android:id="@+id/nav_menu_transit"
+            android:icon="@drawable/ic_transit"
+            android:title="@string/button_transit" />
+        <item
+            android:id="@+id/nav_menu_inguiry"
+            android:icon="@drawable/ic_menu_inguiry"
+            android:title="@string/btn_inguiry" />
+        <item
+            android:id="@+id/nav_menu_change"
+            android:icon="@drawable/ic_change"
+            android:title="@string/button_change" />
+        <item
+            android:id="@+id/nav_menu_picking"
+            android:icon="@drawable/ic_pick"
+            android:title="@string/button_picking" />
+        <item
+            android:id="@+id/nav_menu_shipping"
+            android:icon="@drawable/ic_menu_shipping"
+            android:title="@string/btn_shipping" />
+        <item
+            android:id="@+id/nav_menu_return"
+            android:icon="@drawable/ic_menu_return"
+            android:title="@string/btn_return" />
+        <item
+            android:id="@+id/nav_menu_counting"
+            android:icon="@drawable/ic_count"
+            android:title="@string/btn_counting" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_menu_signout"
+                android:icon="@drawable/ic_menu_signout"
+                android:title="Signout" />
+        </menu>
+    </item>
+
+</menu>

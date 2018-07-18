@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FragmentMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.HomeFragment">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_home"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spn_date"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            tools:ignore="RtlHardcoded" />
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/circle" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Warehouse Management System"
+            android:textColor="#ffff"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_recieving"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/oval"
+                android:drawableStart="@mipmap/ic_rubix_icon_round"
+                android:padding="20dp"
+                android:text="@string/button_recieving"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_transit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/oval"
+                android:drawableStart="@mipmap/ic_rubix_icon_round"
+                android:padding="16dp"
+                android:text="@string/button_transit"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_inguiry"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/oval"
+                android:drawableLeft="@mipmap/ic_rubix_icon_round"
+                android:padding="16dp"
+                android:text="@string/btn_inguiry"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_change"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/oval"
+                android:drawableLeft="@mipmap/ic_rubix_icon_round"
+                android:padding="16dp"
+                android:text="@string/button_change"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_picking"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/oval"
+                android:drawableLeft="@mipmap/ic_rubix_icon_round"
+                android:padding="16dp"
+                android:text="@string/button_picking"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_shipping"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/oval"
+                android:drawableLeft="@mipmap/ic_rubix_icon_round"
+                android:padding="16dp"
+                android:text="@string/btn_shipping"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_return"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/oval"
+                android:drawableLeft="@mipmap/ic_rubix_icon_round"
+                android:padding="16dp"
+                android:text="@string/btn_return"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_counting"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/oval"
+                android:drawableLeft="@mipmap/ic_rubix_icon_round"
+                android:padding="16dp"
+                android:text="@string/btn_counting"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
